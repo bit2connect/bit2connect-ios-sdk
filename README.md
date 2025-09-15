@@ -19,7 +19,7 @@ platform :ios, '13.0'
 
 target 'YourApp' do
   use_frameworks!
-  pod 'Bit2ConnectSDK', '~> 1.0.0'
+  pod 'Bit2ConnectSDK', '~> 1.0.1'
 end
 ```
 
@@ -37,7 +37,7 @@ After installation, open the generated `.xcworkspace` file instead of the `.xcod
 
 1. In Xcode, go to **File** → **Add Package Dependencies**
 2. Enter the repository URL: `https://github.com/bit2connect/bit2connect-ios-sdk.git`
-3. Select **Up to Next Major Version** with **1.0.0**
+3. Select **Up to Next Major Version** with **1.0.1**
 4. Click **Add Package**
 5. Select your target and click **Add Package**
 
@@ -47,7 +47,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/bit2connect/bit2connect-ios-sdk.git", from: "1.0.0")
+    .package(url: "https://github.com/bit2connect/bit2connect-ios-sdk.git", from: "1.0.1")
 ],
 targets: [
     .target(

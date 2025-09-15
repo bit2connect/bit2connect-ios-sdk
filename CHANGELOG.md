@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-09-15
+
+### Added
+- Enhanced CocoaPods podspec description with Swift Package Manager support
+- Updated documentation to highlight dual distribution support
+- Improved package manager compatibility information
+
+### Changed
+- Updated podspec description to mention SPM availability
+- Enhanced README with latest version information
+
 ## [1.0.0] - 2025-09-15
 
 ### Added

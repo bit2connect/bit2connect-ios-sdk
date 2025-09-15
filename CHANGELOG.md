@@ -11,10 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced CocoaPods podspec description with Swift Package Manager support
 - Updated documentation to highlight dual distribution support
 - Improved package manager compatibility information
+- Swift Package Manager v1.0.1 availability
 
 ### Changed
 - Updated podspec description to mention SPM availability
 - Enhanced README with latest version information
+- Both CocoaPods and Swift Package Manager now at version 1.0.1
 
 ## [1.0.0] - 2025-09-15
 

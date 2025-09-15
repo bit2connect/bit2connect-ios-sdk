@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Secure storage using iOS Keychain
 - Comprehensive result handling with enums
 - Debug logging support
-- Example app demonstrating all features
+- Separate example app demonstrating all features
 - Complete documentation and API reference
 - Swift Package Manager support
 - CocoaPods support

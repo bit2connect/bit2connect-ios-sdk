@@ -296,7 +296,7 @@ Bit2ConnectSDK.shared.setDebugMode(true)
 
 ## Example App
 
-Check out the included example app to see the SDK in action. The example demonstrates:
+Check out the separate example app at [bit2connect-ios-example](../bit2connect-ios-example) to see the SDK in action. The example demonstrates:
 
 - SDK initialization
 - Deferred deep link handling

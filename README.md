@@ -1,24 +1,35 @@
 # Bit2Connect iOS SDK
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/Bit2ConnectSDK.svg)](https://cocoapods.org/pods/Bit2ConnectSDK)
+[![CocoaPods](https://img.shields.io/cocoapods/p/Bit2ConnectSDK.svg)](https://cocoapods.org/pods/Bit2ConnectSDK)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/bit2connect/bit2connect-ios-sdk)
+[![Platform](https://img.shields.io/badge/platform-iOS%2013.0+-blue.svg)](https://cocoapods.org/pods/Bit2ConnectSDK)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A comprehensive iOS SDK for handling deferred deep linking and dynamic link creation. This SDK enables you to track user attribution and handle deep links even when your app is not installed.
 
-## Features
+## 📦 Installation
 
-- **Deferred Deep Linking**: Track users who click on your links before installing your app
-- **Dynamic Link Creation**: Programmatically create short links with custom parameters
-- **Device Fingerprinting**: Uses device information for accurate attribution
-- **Secure Storage**: Encrypted storage for sensitive data using iOS Keychain
-- **Easy Integration**: Simple API with comprehensive result handling
-- **Swift Package Manager**: Native SPM support
-- **CocoaPods**: Full CocoaPods support
+### CocoaPods (Recommended)
 
-## Requirements
+Add the following to your `Podfile`:
 
-- iOS 13.0+
-- Xcode 12.0+
-- Swift 5.0+
+```ruby
+platform :ios, '13.0'
 
-## Installation
+target 'YourApp' do
+  use_frameworks!
+  pod 'Bit2ConnectSDK', '~> 1.0.0'
+end
+```
+
+Then run:
+
+```bash
+pod install
+```
+
+After installation, open the generated `.xcworkspace` file instead of the `.xcodeproj` file.
 
 ### Swift Package Manager
 
@@ -35,19 +46,21 @@ Or add it through Xcode:
 2. Enter the repository URL: `https://github.com/bit2connect/bit2connect-ios-sdk.git`
 3. Select the version and add to your target
 
-### CocoaPods
+## Features
 
-Add the following to your `Podfile`:
+- **Deferred Deep Linking**: Track users who click on your links before installing your app
+- **Dynamic Link Creation**: Programmatically create short links with custom parameters
+- **Device Fingerprinting**: Uses device information for accurate attribution
+- **Secure Storage**: Encrypted storage for sensitive data using iOS Keychain
+- **Easy Integration**: Simple API with comprehensive result handling
+- **Swift Package Manager**: Native SPM support
+- **CocoaPods**: Full CocoaPods support
 
-```ruby
-pod 'Bit2ConnectSDK', '~> 1.0.0'
-```
+## Requirements
 
-Then run:
-
-```bash
-pod install
-```
+- iOS 13.0+
+- Xcode 12.0+
+- Swift 5.0+
 
 ## Quick Start
 
@@ -304,6 +317,8 @@ Check out the separate example app at [bit2connect-ios-example](../bit2connect-i
 - Direct deep link handling
 - Secure data storage
 - Error handling
+
+For a complete integration guide with code examples, see [INTEGRATION_EXAMPLE.md](INTEGRATION_EXAMPLE.md).
 
 ## Dependencies
 

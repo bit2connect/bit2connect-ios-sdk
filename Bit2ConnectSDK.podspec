@@ -5,6 +5,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                       Bit2Connect iOS SDK provides comprehensive functionality for handling deferred deep linking and dynamic link creation. 
                       Track user attribution and handle deep links even when your app is not installed.
+                      Available via CocoaPods and Swift Package Manager for maximum flexibility.
                       DESC
 
   spec.homepage     = "https://bit2connect.com"

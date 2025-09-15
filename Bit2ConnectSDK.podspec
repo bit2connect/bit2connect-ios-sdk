@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Bit2ConnectSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "iOS SDK for handling deferred deep linking and dynamic link creation"
   spec.description  = <<-DESC
                       Bit2Connect iOS SDK provides comprehensive functionality for handling deferred deep linking and dynamic link creation. 

@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 
 /// Main SDK class for Bit2Connect functionality
 public class Bit2ConnectSDK {

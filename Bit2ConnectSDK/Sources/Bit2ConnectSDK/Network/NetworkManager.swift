@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 import Alamofire
 import SwiftyJSON
 
@@ -109,7 +111,11 @@ internal class NetworkManager {
     
     /// Get device identifier
     private func getDeviceId() -> String {
+        #if canImport(UIKit)
         return UIDevice.current.identifierForVendor?.uuidString ?? "unknown"
+        #else
+        return "unknown"
+        #endif
     }
     
     /// Get app version
@@ -119,6 +125,10 @@ internal class NetworkManager {
     
     /// Get OS version
     private func getOSVersion() -> String {
+        #if canImport(UIKit)
         return UIDevice.current.systemVersion
+        #else
+        return "unknown"
+        #endif
     }
 }

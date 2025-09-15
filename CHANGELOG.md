@@ -17,9 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Debug logging support
 - Separate example app demonstrating all features
 - Complete documentation and API reference
-- Swift Package Manager support
+- Swift Package Manager support and publication
 - CocoaPods support and publication
 - Published to CocoaPods Trunk (https://cocoapods.org/pods/Bit2ConnectSDK)
+- Published to Swift Package Manager (https://github.com/bit2connect/bit2connect-ios-sdk)
+- Cross-platform compatibility for SPM distribution
 
 ### Features
 - **Deferred Deep Linking**: Track users who click links before app installation

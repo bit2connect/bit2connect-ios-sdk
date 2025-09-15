@@ -33,18 +33,38 @@ After installation, open the generated `.xcworkspace` file instead of the `.xcod
 
 ### Swift Package Manager
 
+#### Option 1: Using Xcode (Recommended)
+
+1. In Xcode, go to **File** → **Add Package Dependencies**
+2. Enter the repository URL: `https://github.com/bit2connect/bit2connect-ios-sdk.git`
+3. Select **Up to Next Major Version** with **1.0.0**
+4. Click **Add Package**
+5. Select your target and click **Add Package**
+
+#### Option 2: Using Package.swift
+
 Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
     .package(url: "https://github.com/bit2connect/bit2connect-ios-sdk.git", from: "1.0.0")
+],
+targets: [
+    .target(
+        name: "YourTarget",
+        dependencies: [.product(name: "Bit2ConnectSDK", package: "bit2connect-ios-sdk")]
+    )
 ]
 ```
 
-Or add it through Xcode:
-1. File → Add Package Dependencies
-2. Enter the repository URL: `https://github.com/bit2connect/bit2connect-ios-sdk.git`
-3. Select the version and add to your target
+#### Option 3: Command Line
+
+```bash
+swift package init
+# Add dependency to Package.swift as shown above
+swift package resolve
+swift build
+```
 
 ## Features
 
